@@ -15,7 +15,7 @@ REFRESH_TOKEN_SECRET=' // Generate secret token
 yarn install
 yarn run dev-server
 ```
-This projects contains integration tests
+This project contain integration tests
 ```
 yarn run test
 ```
