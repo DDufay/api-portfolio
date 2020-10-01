@@ -9,6 +9,6 @@ const router = require('./Route');
 
 router(app);
 
-app.listen(3004, () => console.log(`App listening on port 3004`));
+app.listen(process.env.PORT, () => console.log(`App listening on port ${process.env.PORT}`));
 
 module.exports = app;

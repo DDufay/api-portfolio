@@ -6,7 +6,7 @@
   "scripts": {
     "test": "export NODE_ENV=test && mocha --exit",
     "server-dev": "export NODE_ENV=dev && nodemon index.js",
-    "server": "export NODE_ENV=prod && node index.js"
+    "server": "export NODE_ENV='prod' && node index.js"
   },
   "author": "dylan dufay",
   "license": "ISC",
