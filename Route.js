@@ -134,7 +134,7 @@ module.exports = function(app) {
      *     '200':
      *        description: A successful response
      */
-    app.get('/projects', authenticateToken, projectController.getProjects);
+    app.get('/projects', projectController.getProjects);
 
     /**
      * @swagger
